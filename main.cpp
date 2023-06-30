@@ -9,6 +9,8 @@ private:
     int ssthresh;
     int rtt;
 
+
+
 public:
     TCPConnection(int cwnd_ = 1, int ssthresh_ = 65535, int rtt_ = 0) : cwnd(cwnd_), ssthresh(ssthresh_), rtt(rtt_) {}
     
